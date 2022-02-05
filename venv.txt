@@ -1,0 +1,13 @@
+python -m venv calvenv
+calvenv\Scripts\activate.bat
+deactivate
+pip list
+
+jupyter kernelspec list
+pip install ipykernel
+python -m ipykernel install --user --name=calvenv
+
+python.exe -m pip install --upgrade pip
+
+pip freeze > requirements.txt
+pip uninstall -r requirements.txt -y

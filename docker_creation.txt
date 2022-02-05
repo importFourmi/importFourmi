@@ -1,0 +1,15 @@
+mkdir cac40
+cd cac40
+type nul > requirements.txt
+echo.> requirements.txt
+notepad requirements.txt
+
+type nul > Dockerfile
+notepad Dockerfile
+
+type nul > docker-compose.yml
+notepad docker-compose.yml
+
+docker build -t image_cac .
+docker-compose up -d
+docker run image_cac
