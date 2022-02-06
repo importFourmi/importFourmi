@@ -11,5 +11,8 @@ type nul > docker-compose.yml
 notepad docker-compose.yml
 
 docker build -t image_cac .
-docker-compose up -d
+docker-compose up
 docker run image_cac
+
+docker-compose up -d
+docker run -it image_notebook bash
