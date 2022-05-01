@@ -1,20 +1,80 @@
+# __________________________________________________
+# LIBRAIRIES
+
+
+# --------------------------------------------------
+# pour le calcul scientifique
+numpy
+scipy
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# pour l’exploration de données
+beautifulsoup4
+scrapy
+wget
+yfinance
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# pour l’exploration et la visualisation des données
+pandas
+matplotlib
+seaborn
+plotly
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# pour le machine learning
+scikit-learn
+pycaret
+keras
+torch
 tensorflow
+xgboost
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# pour le computer vision
 opencv-python
 mediapipe
-numpy
-matplotlib
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# jupyter
+jupyter
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# pour les interfaces graphiques
 pygame
-keras
-pandas
-pymongo
-yfinance
-wget
+gym
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# pour les interfaces interactives
 dash
 dash_bootstrap_components
-plotly
 plotly-express
 ipywidgets
-scikit-learn
 Flask
-beautifulsoup4
-jupyter
+# --------------------------------------------------
+
+
+# --------------------------------------------------
+# pour avoir R dans Python
+# R doit être installé
+# C:\Program Files\R\R-4.1.3\library doit être modifiable par les profils utilisateurs
+# rpy2
+# --------------------------------------------------
+
+
+
+# __________________________________________________
