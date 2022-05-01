@@ -30,7 +30,6 @@ plotly
 # --------------------------------------------------
 # pour le machine learning
 scikit-learn
-pycaret
 keras
 torch
 tensorflow
