@@ -54,6 +54,7 @@ jupyter
 # pour les interfaces graphiques
 pygame
 gym
+gym[atari]
 # --------------------------------------------------
 
 
