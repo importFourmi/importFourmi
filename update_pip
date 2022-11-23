@@ -1,0 +1,25 @@
+
+sudo python -m pip install --upgrade pip setuptools wheel
+sudo python -m pip install tqdm
+sudo python -m pip install --user --upgrade twine
+
+# => Setuptools: bibliothèque pour créer et distribuer des packages Python
+# => Wheel: fournit une commande pour  setuptools (fichier.whl)
+# => Twine: fournit une connexion sécurisée, authentifiée et vérifiée entre votre système et PyPi via HTTPS
+# => Tqdm: indicateur de progression intelligent utilisé par Twine
+
+
+>> ls
+LICENSE  nexd  setup.py  READMe.md
+>> ls nexd
+__init__.py  main.py
+
+
+python setup.py bdist_wheel
+
+
+touch .pypirc
+
+python -m twine upload dist/*
+
+pip install nexd -U
