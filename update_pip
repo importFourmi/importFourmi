@@ -10,7 +10,8 @@ sudo python -m pip install --user --upgrade twine
 
 
 >> ls
-LICENSE  nexd  setup.py  READMe.md
+LICENSE  nexd  setup.py  READMe.md .pypirc
+
 >> ls nexd
 __init__.py  main.py
 
